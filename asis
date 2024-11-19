@@ -1,0 +1,33 @@
+public class StringConcatenation {
+ 
+ public static String concatenatestrings (String strl, String str2) {
+   I
+   int len1 - str1. Length();
+   int len2 = str2. Lengtht();
+
+ char[] str3 = new char[len1 + len2];
+
+int 1 - 0; 
+while (i < Len1) {
+   str3[i] = str1.charAt(i);
+   i++;
+ }
+ 
+int j - 0;
+while (i < len1 + len2) {
+   str3[i] = str2.charAt(j);
+   j++;
+}
+
+return new String(str3);
+
+}
+
+public static void main(String[] args) {
+String str1 = "Hello";
+String str2 = "Jovymer";
+
+     String concatenatedString = concatenateStrings(str1, str2);
+     System.out.println("Cencatenated string: " + coneatenatedString);
+}
+}
